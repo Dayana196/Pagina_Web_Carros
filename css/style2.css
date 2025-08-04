@@ -86,6 +86,11 @@ body {
     bottom: 20px;
 }
 
+.contenedor {
+    width: 100%;
+    background-color: red !important;
+}
+
 
 .lamborghini {
     width: 170px;
