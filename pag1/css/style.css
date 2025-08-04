@@ -1,0 +1,651 @@
+:root {
+    --background-izq: #000000;
+    --color-text-log: #FFFFFF;
+    --color-h: #FFFFFF;
+    --color: #aaacae;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #0b0b0b;
+}
+
+
+.menuizq {
+    width: 200px;
+    height: 100vh;
+    background-color: var(--background-izq);
+    box-shadow: 0px 0 20px rgb(255, 0, 0);
+    overflow: hidden;
+}
+
+.logomain img {
+    width: 40px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.h1 {
+    color: var(--color-text-log);
+    position: relative;
+    top: -58px;
+    left: 75px;
+    font-size: 24px;
+}
+
+
+.dashboard,
+.assets,
+.booking,
+.sellcars,
+.services,
+.settings,
+.logout {
+    font-size: 14px;
+    padding-left: 25px;
+    margin-bottom: 17px;
+}
+
+
+.dashboard img,
+.assets img,
+.booking img,
+.sellcars img,
+.services img,
+.settings img,
+.logout img {
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+.dashboard a,
+.assets a,
+.booking a,
+.sellcars a,
+.services a,
+.settings a,
+.logout a {
+    text-decoration: none;
+    color: white;
+}
+
+.settings,
+.logout {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    padding-left: 25px;
+    margin-bottom: 0;
+}
+
+.logout {
+    bottom: 20px;
+}
+
+
+.lamborghini {
+    width: 170px;
+    height: 170px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 60px;
+    left: 300px;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmw {
+    width: 170px;
+    height: 170px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 60px;
+    left: 570px;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volvo {
+    width: 170px;
+    height: 170px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 60px;
+    left: 850px;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.mercedesbenz {
+    width: 170px;
+    height: 170px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 60px;
+    left: 1130px;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
+.bmwcar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 270px;
+    left: 412px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmwcar img {
+    width: 180px;
+    position: absolute;
+    top: 16px;
+    left: 23px;
+}
+.bmwcar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 360px;
+    left: 437px;
+    z-index: 10;
+    font-size: 17px;
+}
+.circua {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 280px;
+    left: 329px;
+    z-index: 10;
+}
+.circua img {
+    height: 15px;
+    width: 220px;
+}
+.circua p {
+
+    position: fixed;
+    top: 275px;
+    left: 452px;
+}
+.cualine img {
+    color: var(--color);
+    position: fixed;
+    top: 397px;
+    left: 334px;
+    height: 13px;
+    width: 220px;
+}
+.cualine p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 390px;
+    left: 457px;
+}
+.tuerca img {
+    height: 10px;
+    width: 200px;
+    top: 128px;
+    left: -10px;
+}
+.raio img {
+    height: 10px;
+    width: 200px;
+    top: 128px;
+    left: 10px;
+}
+.raio p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 389px;
+    left: 590px;
+}
+
+
+
+
+.lamborghinicar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 270px;
+    left: 685px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lamborghinicar img {
+    width: 180px;
+    position: absolute;
+    top: 35px;
+    left: 23px;
+}
+.lamborghinicar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 360px;
+    left: 713px;
+    z-index: 10;
+    font-size: 17px;
+}
+.circua2 {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 280px;
+    left: 604px;
+    z-index: 10;
+}
+.circua2 img {
+    height: 15px;
+    width: 220px;
+}
+.circua2 p {
+    position: fixed;
+    top: 275px;
+    left: 728px;
+}
+.cualine2 img {
+    position: fixed;
+    top: 397px;
+    left: 610px;
+    height: 13px;
+    width: 220px;
+}
+.cualine2 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 390px;
+    left: 735px;
+}
+.tuerca2 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 398px;
+    left: 680px;
+}
+.raio2 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 398px;
+    left: 700px;
+}
+.raio2 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 389px;
+    left: 863px;
+}
+
+
+
+
+.volvocar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 270px;
+    left: 970px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volvocar img {
+    width: 180px;
+    position: absolute;
+    top: 35px;
+    left: 23px;
+}
+.volvocar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 360px;
+    left: 997px;
+    z-index: 10;
+    font-size: 17px;
+}
+.circua3 {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 280px;
+    left: 892px;
+    z-index: 10;
+}
+.circua3 img {
+    height: 15px;
+    width: 220px;
+}
+.circua3 p {
+    position: fixed;
+    top: 275px;
+    left: 1017px;
+}
+.cualine3 img {
+    position: fixed;
+    top: 397px;
+    left: 894px;
+    height: 13px;
+    width: 220px;
+}
+.cualine3 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 390px;
+    left: 1019px;
+}
+.tuerca3 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 398px;
+    left: 966px;
+}
+.raio3 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 398px;
+    left: 989px;
+}
+.raio3 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 389px;
+    left: 1147px;
+}
+
+
+
+
+.jeeprubiconcar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 436px;
+    left: 412px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jeeprubiconcar img {
+    width: 170px;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+.jeeprubiconcar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 523px;
+    left: 437px;
+    z-index: 10;
+    font-size: 17px;
+}
+.circua4 {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 445px;
+    left: 329px;
+    z-index: 10;
+}
+.circua4 img {
+    height: 15px;
+    width: 220px;
+}
+.circua4 p {
+    position: fixed;
+    top: 439px;
+    left: 452px;
+}
+
+.circua4 h3 {
+    position: fixed;
+    color: #505050;
+    top: 440px;
+    left: 525px;
+    font-size: 8px;
+}
+
+.cualine4 img {
+    color: var(--color);
+    position: fixed;
+    top: 563px;
+    left: 334px;
+    height: 13px;
+    width: 220px;
+}
+.cualine4 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 457px;
+}
+.tuerca4 img {
+    height: 10px;
+    width: 200px;
+    top: 129px;
+    left: -10px;
+}
+.raio4 img {
+    height: 10px;
+    width: 200px;
+    top: 128px;
+    left: 10px;
+}
+.raio4 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 590px;
+}
+
+
+
+
+.mercedesbenzcar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 436px;
+    left: 685px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mercedesbenzcar img {
+    width: 180px;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+.mercedesbenzcar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 523px;
+    left: 700px;
+    z-index: 10;
+    font-size: 16px;
+}
+.circua5 {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 444px;
+    left: 604px;
+    z-index: 10;
+}
+.circua5 img {
+    height: 15px;
+    width: 220px;
+}
+.circua5 p {
+    position: fixed;
+    top: 438px;
+    left: 728px;
+}
+.cualine5 img {
+    position: fixed;
+    top: 563px;
+    left: 610px;
+    height: 13px;
+    width: 220px;
+}
+.cualine5 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 735px;
+}
+.tuerca5 img {
+    height: 10px;
+    width: 200px;
+    top: 129px;
+    left: -10px;
+}
+.raio5 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 565px;
+    left: 700px;
+}
+.raio5 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 863px;
+}
+
+
+.porschecar {
+    width: 220px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 16px;
+    position: fixed;
+    top: 436px;
+    left: 970px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.porschecar img {
+    width: 180px;
+    position: absolute;
+    top: 44px;
+    left: 23px;
+}
+.porschecar h1 {
+    color: var(--color-h);
+    position: fixed;
+    top: 523px;
+    left: 997px;
+    z-index: 10;
+    font-size: 17px;
+}
+.circua6 {
+    color: var(--color);
+    font-size: 9px;
+    position: fixed;
+    top: 446px;
+    left: 892px;
+    z-index: 10;
+}
+.circua6 img {
+    height: 15px;
+    width: 220px;
+}
+.circua6 p {
+    position: fixed;
+    top: 439px;
+    left: 1017px;
+}
+.circua6 h3 {
+    position: fixed;
+    color: #505050;
+    top: 440px;
+    left: 1090px;
+    font-size: 8px;
+}
+.cualine6 img {
+    position: fixed;
+    top: 563px;
+    left: 894px;
+    height: 13px;
+    width: 220px;
+}
+.cualine6 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 1019px;
+}
+.tuerca6 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 563px;
+    left: 966px;
+}
+.raio6 img {
+    height: 10px;
+    width: 200px;
+    position: fixed;
+    top: 563px;
+    left: 989px;
+}
+.raio6 p {
+    color: var(--color);
+    position: fixed;
+    font-size: 9px;
+    top: 556px;
+    left: 1150px;
+}
