@@ -8,6 +8,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
+    height: 100%;
     overflow-x: hidden;
     background-color: #0b0b0b;
     display: flex;
@@ -15,12 +16,15 @@ body {
 
 
 .menuizq {
-    width: 200px;
-    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 190px;
     background-color: var(--background-izq);
     box-shadow: 0px 0 20px rgb(255, 0, 0);
-    overflow: hidden;
 }
+
 
 .logomain img {
     width: 40px;
@@ -91,12 +95,28 @@ body {
 .contenedor {
     width: 100%;
     flex: 1;
-}
-
-.contenedor {
     display: flex;
     flex-direction: column;
+    margin-left: 200px; /* Este es el que estás preguntando */
 }
+
+.barra-superior {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+}
+
+.barra-superior img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+
 
 .marcas {
     display: flex;
@@ -196,3 +216,43 @@ body {
     gap: 5px;
     justify-content: flex-end;
 }
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 20px;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  border: 2px solid #c62828;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-size: 16px;
+  width: 300px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-bar input::placeholder {
+  color: #999;
+}
+
+.search-bar input:focus {
+  border-color: #ff5252;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #c62828;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s
+
