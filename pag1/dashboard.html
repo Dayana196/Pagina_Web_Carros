@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="../css/dashboard.css">
-
 </head>
 
 <body>
+    <div class="barra-superior">
+        <div class="icono-notificacion">
+            <img src="../src/img/active.png" alt="Notificaciones">
+        </div>
+        <div class="icono-perfil">
+            <a href="../pag1/inicioseccion.html">
+            <img src="../src/img/man.png" alt="Perfil">
+            </a>
+        </div>
+    </div>
+
+    </div>
     <nav class="menuizq">
         <div class="logomain">
             <img src="../src/img/logoMAIN.svg" alt="logomain">
@@ -17,13 +28,13 @@
         </div>
 
         <div class="dashboard">
-            <a href="#"><img src="../src/img/dashboardMAIN.svg" alt="Dashboard">Dashboard</a>
+            <a href="dashboard.html"><img src="../src/img/dashboardMAIN.svg" alt="Dashboard">Dashboard</a>
         </div>
         <div class="assets">
             <a href="#"><img src="../src/img/assetsMAIN.svg" alt="Assets">Assets</a>
         </div>
         <div class="booking">
-            <a href="#"><img src="../src/img/bookingMAIN.svg" alt="Booking">Booking</a>
+            <a href="Booking.html"><img src="../src/img/bookingMAIN.svg" alt="Booking">Booking</a>
         </div>
         <div class="sellcars">
             <a href="#"><img src="../src/img/sellcarsMAIN.svg" alt="Sell Cars">Sell Cars</a>
@@ -39,6 +50,7 @@
             <a href="#"><img src="../src/img/logoutMAIN.svg" alt="Log out">Log out</a>
         </div>
     </nav>
+
     <main class="contenedor">
         <div class="marcas">
             <div class="item-marca">
@@ -54,8 +66,13 @@
                 <a href="#"><img src="../src/img/mercedesbenz.svg" alt="mercedesbenz"></a>
             </div>
         </div>
+        <!-- 🔍 Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar auto, marca o precio...">
+            <button type="submit">Buscar</button>
+        </div>
         <section class="autos">
-             <div class="item-auto">
+            <div class="item-auto">
                 <div class="circua">
                     <img src="../src/img/vector.svg" alt="circua">
                     <p>64% Recommend</p>
@@ -106,7 +123,7 @@
                 </div>
                 <a href="#"><img src="../src/img/pht-volvo.svg" alt="volvocar"></a>
                 <h1>Volvo XC90</h1>
-                <div class="detail">   
+                <div class="detail">
                     <div class="cualine">
                         <img class="detail-item-img" src="../src/img/cuadroline.svg" alt="cuadroline">
                         <p>532K</p>
@@ -123,8 +140,8 @@
             <div class="item-auto">
                 <div class="circua">
                     <img src="../src/img/vector.svg" alt="circua">
-                    <p>64% Recommend</p> 
-                </div>    
+                    <p>64% Recommend</p>
+                </div>
                 <a href="#"><img src="../src/img/pht-jeeprubicon.svg" alt="jeeprubiconcar"></a>
                 <h1>Jeep Rubicon</h1>
                 <div class="detail">
@@ -159,7 +176,7 @@
                         <img class="detail-item-img" src="../src/img/raio.svg" alt="raio5">
                     </div>
                     <div class="raio">
-                    <p>$26/h</p>
+                        <p>$26/h</p>
                     </div>
                 </div>
             </div>
