@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff4d4d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 35px 10px 35px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #888;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #ff4d4d;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  color: #ff4d4d;
+  font-size: 20px;
+}
+
+.input-box .eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 20px;
+  cursor: not-allowed;
+}
+
+.btn {
+  padding: 10px;
+  background: #ff4d4d;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #e60000;
+}
+
+.switch-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-text label {
+  color: #ff4d4d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Mostrar solo uno a la vez */
+.login,
+.register {
+  display: none;
+}
+
+#toggle-form:not(:checked) ~ .login {
+  display: block;
+}
+
+#toggle-form:checked ~ .register {
+  display: block;
+}
