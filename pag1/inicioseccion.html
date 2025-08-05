@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="../css/inicioseccion.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <!-- checkbox oculto -->
+    <input type="checkbox" id="toggle-form" hidden>
+
+    <!-- LOGIN FORM -->
+    <div class="form-container login">
+      <form class="form">
+        <h2>Iniciar Sesión</h2>
+
+        <div class="input-box">
+          <i class='bx bx-envelope icon'></i>
+          <input type="email" required placeholder="Correo electrónico">
+        </div>
+
+        <div class="input-box">
+          <i class='bx bx-lock-alt icon'></i>
+          <input type="password" required placeholder="Contraseña">
+          <i class='bx bx-show eye-icon'></i>
+        </div>
+
+        <button type="submit" class="btn">Entrar</button>
+        <p class="switch-text">
+          ¿No tienes una cuenta?
+          <label for="toggle-form">Regístrate</label>
+        </p>
+      </form>
+    </div>
+
+    <!-- REGISTER FORM -->
+    <div class="form-container register">
+      <form class="form">
+        <h2>Registrarse</h2>
+
+        <div class="input-box">
+          <i class='bx bx-user icon'></i>
+          <input type="text" required placeholder="Nombre completo">
+        </div>
+
+        <div class="input-box">
+          <i class='bx bx-envelope icon'></i>
+          <input type="email" required placeholder="Correo electrónico">
+        </div>
+
+        <div class="input-box">
+          <i class='bx bx-lock-alt icon'></i>
+          <input type="password" required placeholder="Contraseña">
+          <i class='bx bx-show eye-icon'></i>
+        </div>
+
+        <div class="input-box">
+          <i class='bx bx-lock-alt icon'></i>
+          <input type="password" required placeholder="Confirmar contraseña">
+          <i class='bx bx-show eye-icon'></i>
+        </div>
+
+        <button type="submit" class="btn">Registrarse</button>
+        <p class="switch-text">
+          ¿Ya tienes una cuenta?
+          <label for="toggle-form">Iniciar sesión</label>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
