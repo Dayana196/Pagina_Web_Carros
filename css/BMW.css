@@ -144,7 +144,7 @@ body {
 }
 
 .item-auto {
-    flex: 0 0 calc(33.33% - 30px);
+    flex: 0 0 calc(30.30% 30px);
     box-sizing: border-box;
     background-color: #000000;
     border-radius: 16px;
